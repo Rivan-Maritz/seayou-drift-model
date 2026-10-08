@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+ 
+# Virtual environments and secrets
+.venv/
+venv/
+env/
+.env
+ 
+# Generated data and trained model.
+# Recreate with generate_data.py and train_model.py.
+# Saved scikit-learn models only load on the same library version that created them,
+# so the model is deliberately not committed.
+data/
+train.csv
+test.csv
+model/*.joblib
+drift_model.joblib
+ 
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
